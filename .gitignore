@@ -1,0 +1,19 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.*
+crash.log
+
+# Local .terraform directories
+**/.terraform/*
+
+# Ignore macOS system files
+.DS_Store
+
+# .env for environment variables
+.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/
